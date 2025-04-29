@@ -1,0 +1,6 @@
+pip install streamlit langchain chromadb ollama pdfplumber pdf2image pytesseract
+sudo apt install poppler-utils tesseract-ocr
+streamlit run research_explainer.py
+
+ollama run llama3
+ollama run nomic-embed-text
